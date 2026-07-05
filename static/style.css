@@ -17,6 +17,7 @@ p {
     color: #cccccc;
 }
 
+/* Start Reading Button */
 .start-btn {
     display: inline-block;
     margin-top: 40px;
@@ -27,25 +28,48 @@ p {
     font-size: 28px;
     font-weight: bold;
     border-radius: 15px;
-}   /* <-- This bracket is important */
+    transition: 0.3s;
+}
 
+.start-btn:hover {
+    background-color: #00cc55;
+    transform: scale(1.05);
+}
+
+/* Chapter Button */
 .chapter-btn {
     display: inline-block;
     margin: 20px;
     padding: 15px 30px;
-    background: #00ff66;
+    background-color: #00ff66;
     color: black;
     text-decoration: none;
     border-radius: 10px;
+    font-size: 24px;
     font-weight: bold;
+    transition: 0.3s;
 }
+
+.chapter-btn:hover {
+    background-color: #00cc55;
+    transform: scale(1.05);
+}
+
+/* Back Button */
 .back-btn {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 12px 25px;
-    background: #444;
+    background-color: #444;
     color: white;
     text-decoration: none;
     border-radius: 10px;
+    font-size: 20px;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #666;
+    transform: scale(1.05);
 }
