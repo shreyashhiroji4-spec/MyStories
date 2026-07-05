@@ -13,8 +13,12 @@ h1 {
 }
 
 p {
-    font-size: 28px;
+    font-size: 22px;
     color: #cccccc;
+    max-width: 900px;
+    margin: 25px auto;
+    line-height: 1.8;
+    text-align: left;
 }
 
 /* Start Reading Button */
