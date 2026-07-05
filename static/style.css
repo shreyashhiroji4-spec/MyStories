@@ -89,3 +89,15 @@ p {
     font-weight: bold;
     cursor: not-allowed;
 }
+.chapter-number {
+    color: #00ff66;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.chapter-name {
+    color: #00ff66;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
