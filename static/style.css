@@ -73,3 +73,15 @@ p {
     background-color: #666;
     transform: scale(1.05);
 }
+.locked-btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: #555555;
+    color: #bbbbbb;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: not-allowed;
+}
