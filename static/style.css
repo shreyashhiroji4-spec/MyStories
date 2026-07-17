@@ -46,7 +46,7 @@ p {
 /* Chapter Button */
 .chapter-btn {
     display: inline-block;
-    width: 420px;
+    width: 400px;
     padding: 15px 30px;
     background-color: #00ff66;
     color: black;
@@ -83,7 +83,7 @@ p {
 }
 .locked-btn {
     display: inline-block;
-    width: 450px;
+    width: 400px;
     padding: 15px 30px;
     margin: 0px;
     background-color: #555555;
