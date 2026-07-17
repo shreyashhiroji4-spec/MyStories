@@ -115,7 +115,7 @@ p {
     text-align: left;
     font-size: 18px;
     line-height: 1.8;
-}
+
 details {
     width: 380px;
     margin: 20px auto;
@@ -135,11 +135,11 @@ summary::-webkit-details-marker {
     width: 340px;
     margin: 10px auto;
     padding: 12px;
-    background: #222;
+    background: #333;
     color: white;
     text-decoration: none;
     border-radius: 8px;
-    transition: 0.3s;
+    text-align: center;
 }
 
 .lang-btn:hover {
