@@ -164,3 +164,10 @@ p {
 .lang-btn.hindi:hover{
     background:#555;
 }
+summary {
+    list-style: none;
+}
+
+summary::marker {
+    display: none;
+}
