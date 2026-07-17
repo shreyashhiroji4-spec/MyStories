@@ -116,17 +116,17 @@ p {
     font-size: 18px;
     line-height: 1.8;
 
-details {
+.details {
     width: 380px;
     margin: 20px auto;
 }
 
-summary {
+.summary {
     list-style: none;
     cursor: pointer;
 }
 
-summary::-webkit-details-marker {
+.summary::-webkit-details-marker {
     display: none;
 }
 
