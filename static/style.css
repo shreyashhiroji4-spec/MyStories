@@ -116,3 +116,33 @@ p {
     font-size: 18px;
     line-height: 1.8;
 }
+details {
+    width: 380px;
+    margin: 20px auto;
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.lang-btn {
+    display: block;
+    width: 340px;
+    margin: 10px auto;
+    padding: 12px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.lang-btn:hover {
+    background: #00cc55;
+    color: black;
+}
