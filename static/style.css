@@ -83,14 +83,17 @@ p {
 }
 .locked-btn {
     display: inline-block;
-    margin: 20px;
+    width: 380px;
     padding: 15px 30px;
+    margin: 20px;
     background-color: #555555;
     color: #bbbbbb;
     text-decoration: none;
     border-radius: 10px;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
     cursor: not-allowed;
 }
 .chapter-number {
